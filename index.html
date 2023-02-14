@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>My Portfolio</title>
+		<link rel="website icon" type="png" href="./images/logo.png" />
+	</head>
+	<body>
+		<header>
+			<a href="#"
+				><img src="./images/logo.png" alt="logo" width="40px" height="40px"
+			/></a>
+			<hr />
+			<div id="navigation">
+				<div id="menu" onClick="onClickMenu()">
+					<div id="bar1" class="bar"></div>
+					<div id="bar2" class="bar"></div>
+					<div id="bar3" class="bar"></div>
+
+					<ul classe="nav" id="nav">
+						<li><a href="#">About</a></li>
+						<li><a href="#services" target="_self">Services</a></li>
+						<li><a href="#div-project" target="_self">Project</a></li>
+						<li><a href="#footer" target="_self">Contact</a></li>
+						<button id="mode-toggle" alt="Dark-mode button">Mode</button>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<!----------------------------------------------------------- SECTION-ONE--------------------------------------------------------- -->
+
+		<section class="section-one">
+			<div class="intro">
+				<h1>Wellcome to my Portfolio,</h1>
+				<h3>Mukhtar MAHSUMI</h3>
+			</div>
+		</section>
+
+		<!--  INBITETWEEN  -->
+		<div class="gap"></div>
+		<!----------------------------------------------------------- SECTION-TWO--------------------------------------------------------- -->
+		<section id="services" class="section-two">
+			<div class="div-services-text">
+				<h4>SERVICES</h4>
+				<h3>What I am great at</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+					vulputate libero et velit interdum, ac aliquet odio mattis. Class
+					aptent taciti sociosqu ad litora torquent
+				</p>
+			</div>
+			<div class="div-boxes">
+				<div id="box1" class="box">
+					<img src="./images//html.png" alt="Image 1" />
+					<button id="myButton" onclick="toggleText(1)">Show Text</button>
+					<p>
+						Text 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Tempora quaerat, unde perspiciatis sequi beatae excepturi atque, ut
+						nisi vitae veniam nesciunt recusandae harum architecto doloremque
+						nam natus inventore ullam. Quas.
+					</p>
+				</div>
+
+				<div id="box2" class="box">
+					<img src="./images//css-logo.png" alt="Image 2" />
+					<button id="myButton" onclick="toggleText(2)">Show Text</button>
+					<p>
+						Text 2 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Tempora quaerat, unde perspiciatis sequi beatae excepturi atque, ut
+						nisi vitae veniam nesciunt recusandae harum architecto doloremque
+						nam natus inventore ullam. Quas.
+					</p>
+				</div>
+
+				<div id="box3" class="box">
+					<img src="./images//js.png" alt="Image 3" />
+					<button id="myButton" onclick="toggleText(3)">Show Text</button>
+					<p>
+						Text 3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Tempora quaerat, unde perspiciatis sequi beatae excepturi atque, ut
+						nisi vitae veniam nesciunt recusandae harum architecto doloremque
+						nam natus inventore ullam. Quas.
+					</p>
+				</div>
+
+				<div id="box4" class="box">
+					<img src="./images/figma3.png" alt="Image 4" />
+					<button id="myButton" onclick="toggleText(4)">Show Text</button>
+					<p>
+						Text 4 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Tempora quaerat, unde perspiciatis sequi beatae excepturi atque, ut
+						nisi vitae veniam nesciunt recusandae harum architecto doloremque
+						nam natus inventore ullam. Quas.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!--  INBITETWEEN  -->
+		<div class="gap"></div>
+		<!------------------------------------------------------------ SECTION-THREE---------------------------------------------------------- -->
+
+		<section id="div-project" class="section-three">
+			<div class="div-project-text">
+				<h4>PROJECTS</h4>
+				<h3>My Leateast Projects</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+					vulputate libero et velit interdum, ac aliquet odio mattis. Class
+					aptent taciti sociosqu ad litora torquent
+				</p>
+			</div>
+			<div class="projects">
+				<div class="project-first-row">
+					<div class="first card">
+						<a
+							href="https://fascinating-gecko-787204.netlify.app/"
+							target="_blank">
+							<img src="./projects/faq.jpg" alt="faq" />
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+							tempora eius, modi aliquam porro nostrum facilis repudiandae
+						</p>
+					</div>
+
+					<div class="second card">
+						<a
+							href="https://adorable-sundae-ba9e3f.netlify.app/"
+							target="_blank">
+							<img src="./projects/self-care.png" alt="self-care" />
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+							tempora eius, modi aliquam porro nostrum facilis repudiandae
+						</p>
+					</div>
+
+					<div class="third middle card">
+						<a
+							href="https://ephemeral-centaur-fa9342.netlify.app/"
+							target="_blank">
+							<img
+								src="./projects/project-simplon-desktop.png"
+								alt="project-simplon-desktop" />
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+							tempora eius, modi aliquam porro nostrum facilis repudiandae
+						</p>
+					</div>
+				</div>
+
+				<div class="project-second-row">
+					<div class="card">
+						<a href="https://reactapp-ebon.vercel.app/" target="_blank">
+							<img src="./projects/yoga.png" alt="yoga" />
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+							tempora eius, modi aliquam porro nostrum facilis repudiandae
+						</p>
+					</div>
+
+					<div class="fourth card">
+						<a href="https://keen-stardust-b8235e.netlify.app/" target="_blank">
+							<img src="./projects/three-column.jpg" alt="three-column" />
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+							tempora eius, modi aliquam porro nostrum facilis repudiandae
+						</p>
+					</div>
+
+					<div class="fifth card">
+						<a
+							href="https://stalwart-cassata-c5f903.netlify.app/"
+							target="_blank">
+							<img src="./projects/music-card.jpg" alt="music-card" />
+						</a>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+							tempora eius, modi aliquam porro nostrum facilis repudiandae
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!------------------------------------------------ FOOTER---------------------------------------------- -->
+
+		<section id="footer" class="footer">
+			<div class="div-footer-text">
+				<h4>Contact me</h4>
+				<h3>Ways to contact me</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+					vulputate libero et velit interdum, ac aliquet odio mattis. Class
+					aptent taciti sociosqu ad litora torquent
+				</p>
+			</div>
+			<div class="contat">
+				<div class="div-contact">
+					<div class="contacts">
+						<img
+							class="social-icon email-icon"
+							src="./images/email-icon.png"
+							alt="email-icon" />
+						<a href="mailto: mukhtarmahsumi24@gmail.com">
+							<p>mukhtarmahsumi24@gmail.com</p>
+						</a>
+					</div>
+
+					<div class="github contacts">
+						<img src="./images/Shape.png" alt="github" />
+						<a href="https://github.com/" target="_blank">
+							Github / mukhtar1998
+						</a>
+					</div>
+
+					<div class="contacts">
+						<img
+							class="social-icon"
+							src="./images/linkdin-icon.png"
+							alt="linkdin-icon" />
+						<a
+							href="https://www.linkedin.com/in/mukhtar-mahsumi-070761222/"
+							target="_blank"
+							>Linkedin / Mukhtar Mahsumi</a
+						>
+					</div>
+
+					<div class="contacts">
+						<img
+							class="social-icon phone-icon"
+							src="./images/phone-icon.png"
+							alt="phone-icon" />
+						<p>+33-78-05-48-66-3</p>
+					</div>
+				</div>
+			</div>
+			<div class="up">
+				<a href="#" target="_top">
+					<img id="back-to-top" src="./images/Vector-1.png" alt="victor-1" />
+				</a>
+			</div>
+		</section>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
