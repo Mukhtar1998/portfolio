@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: Georgia ,serif;
 }
 html {
     scroll-behavior: smooth;
@@ -20,7 +21,6 @@ header {
     align-items: center;
     margin: 0px 50px;
     position: sticky;
-    /* padding: 0 5px; */
     z-index: 100;
     top: 0;
     left: 0;
@@ -86,11 +86,19 @@ header {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.intro, h1 h2 {
+.intro{
     /* background: -webkit-linear-gradient(#eee, rgb(204, 125, 29));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.3rem;
+    width: min(500px , 100%);
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* -----------------------------SECTION2----------------------------- */
